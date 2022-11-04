@@ -33,6 +33,7 @@ subscribe(APP_READY, () => {
     <AppProvider store={configureStore()}>
       <Header
         logoDestination={`${BASE_URL}/dashboard`}
+        logoDestinationTarget='_self'
         username={username}
         userMenu={[
           {
@@ -60,6 +61,7 @@ subscribe(APP_READY, () => {
           {
             label: 'Courses',
             href: `${BASE_URL}/dashboard`,
+            target: '_self'
           },
         ]}
       />
