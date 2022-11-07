@@ -27,7 +27,7 @@ import configureStore from './data/configureStore';
 import './index.scss';
 
 subscribe(APP_READY, () => {
-  const { BASE_URL, ORDER_HISTORY_URL, LOGOUT_URL } = getConfig();
+  const { BASE_URL, LOGOUT_URL } = getConfig();
   const { username } = getAuthenticatedUser();
   ReactDOM.render(
     <AppProvider store={configureStore()}>
@@ -47,10 +47,6 @@ subscribe(APP_READY, () => {
           {
             label: 'Account',
             href: `${BASE_URL}/account/settings`,
-          },
-          {
-            label: 'Order History',
-            href: ORDER_HISTORY_URL,
           },
           {
             label: 'Logout',
