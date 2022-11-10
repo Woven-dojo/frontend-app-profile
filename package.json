@@ -37,7 +37,6 @@
     "@fortawesome/free-solid-svg-icons": "5.15.4",
     "@fortawesome/react-fontawesome": "0.1.15",
     "@woven-dojo/dojo-frontend-common": "^1.1.25",
-    "bootstrap": "^4.6.1",
     "classnames": "2.3.1",
     "core-js": "3.18.2",
     "lodash.camelcase": "4.3.0",
