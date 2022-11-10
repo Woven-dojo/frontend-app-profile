@@ -281,9 +281,11 @@ class ProfilePage extends React.Component {
 
   render() {
     return (
-      <div className="profile-page">
-        <Banner />
-        {this.renderContent()}
+      <div className="py-5 container-mw-lg container-fluid">
+        <div className="profile-page">
+          <Banner />
+          {this.renderContent()}
+        </div>
       </div>
     );
   }
