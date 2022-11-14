@@ -2,7 +2,10 @@
 @import "~@edx/brand/paragon/variables";
 @import "~@edx/paragon/scss/core/core";
 @import "~@edx/brand/paragon/overrides";
-@import "~@edx/frontend-component-header/dist/index";
-@import "~@edx/frontend-component-footer/dist/footer";
 
 @import './profile/index';
+
+@import '@woven-dojo/dojo-admin-brand/paragon/fonts';
+@import '@woven-dojo/dojo-admin-brand/paragon/variables';
+@import '@woven-dojo/dojo-admin-brand/paragon/mixins';
+@import '@woven-dojo/dojo-admin-brand/paragon/overrides';
