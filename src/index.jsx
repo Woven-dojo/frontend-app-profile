@@ -19,7 +19,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Route, Switch } from 'react-router-dom';
 
-import { Header, Footer } from '@woven-dojo/dojo-frontend-common/dist/components';
+import { Header, Footer } from '@woven-dojo/dojo-frontend-ui';
 import appMessages from './i18n';
 import { ProfilePage, NotFoundPage } from './profile';
 import configureStore from './data/configureStore';
